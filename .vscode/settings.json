@@ -7,5 +7,20 @@
         "*.csv": "duckdb.dataFileViewer",
         "*.tsv": "duckdb.dataFileViewer",
         "*.xlsx": "duckdb.dataFileViewer"
-    }
+    },
+    "duckdb.databases": [
+        {
+            "alias": "Untitled",
+            "type": "file",
+            "path": "/Users/rookr/Documents/FinancialWH/Untitled.duckdb",
+            "attached": false
+        },
+        {
+            "alias": "IndiaMarkets",
+            "type": "file",
+            "path": "/Users/rookr/Documents/FinancialWH/IndiaMarkets.duckdb",
+            "attached": true
+        }
+    ],
+    "duckdb.defaultDatabase": "IndiaMarkets"
 }
